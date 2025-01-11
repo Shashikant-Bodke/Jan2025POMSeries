@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+//import com.aventstack.chaintest.plugins.ChainTestListener;
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstants;
 import com.qa.opencart.listeners.ExtentReportListener;
@@ -23,7 +24,7 @@ import io.qameta.allure.Story;
 @Feature("Feature 101: login feature")
 @Story("US 120: All the features related to open cart login page")
 
-
+//@Listeners(ChainTestListener.class)
 public class LoginPageTest extends BaseTest {
 
 	
